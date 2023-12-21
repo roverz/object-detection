@@ -1,12 +1,1 @@
-import cv2 as cv
-capture = cv.VideoCapture(0)               #captures your PC's webcam
-capture.set(3,640)
-capture.set(4,480)
-capture.set(10,100)
-true = 1
-while true:
-    istrue, frame = capture.read()         #this reads the captured video frame by frame
-    cv.imshow('Video', frame)              #displays each frame of the video
-    if cv.waitKey(0) & 0xff('d'):           #on pressing the letter "d" the webcam recording would stop immediately
-        break
-capture.release()                            #optional
+Hello!!!! This is icequeen3104. As of now, I am a collegiate student from India. My passion and enthusiasm for coding has brought me to this platform. Here you may find codes related to hot topics such as C, python, python turtle, opencv, openai, matplotlib, machine learning and every other thing related to artificial intelligence. Feel free to contribute to my repositories and help me learn better. Thank you!!! 
