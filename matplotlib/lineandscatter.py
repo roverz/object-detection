@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt                                     #importing t
 import pandas as pd                                                 #importing pandas to read given csv file 
 plt.style.use('bmh')                                                #for styling the plot
 df = pd.read_csv('FILE PATH.csv')                                   #'df' stands for dataframe which stores the csv file and reads it
-x = df['x']                                                         #this stores the set of values given in the file
-y = df['y']                                                         #this stores another set of values given in the file
+x = df['']                                                          #this stores the set of values given in the file
+y = df['']                                                          #this stores another set of values given in the file
 plt.xlabel('')                                                      #this labels the x-axis of the plot
 plt.ylabel('')                                                      #this labels the y-axis of the plot
 plt.scatter(x,y)                                                    #this forms only the scatter plot
