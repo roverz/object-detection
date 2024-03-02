@@ -7,6 +7,6 @@ true = 1
 while true:
     istrue, frame = capture.read()
     cv.imshow('Video', frame)
-    if cv.waitKey(0) & 0xff == ord('d'):
+    if cv.waitKey(1) & 0xff == ord('d'):
         break
 #capture.release()    
