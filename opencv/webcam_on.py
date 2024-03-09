@@ -7,6 +7,6 @@ true = 1
 while true:
     istrue, frame = capture.read()         #this reads the captured video frame by frame
     cv.imshow('Video', frame)              #displays each frame of the video
-    if cv.waitKey(0) & 0xff('d'):           #on pressing the letter "d" the webcam recording would stop immediately
+    if cv.waitKey(1) & 0xff('d'):           #on pressing the letter "d" the webcam recording would stop immediately
         break
 capture.release()                            #optional
