@@ -1,1 +1,1 @@
-Hello!!!! This is icequeen3104. Here you may find codes related to hot topics such as C, python, python turtle, opencv, openai, matplotlib, machine learning and every other thing related to artificial intelligence. Feel free to contribute to my repositories and help me learn better. Thank you!!! 
+# This repo contains all the necessary code for object detection required for our project.
